@@ -1,6 +1,6 @@
 # javascript-astar
 
-## My moifications
+## My modifications
 
 I've added an option allowing A* to calculate its cost function based on the value between tiles instead of simply adding the number to the cost function. This prims the A* for terrain traversal as it's able to move through a space accounting for dramatic changes in the altitude.
 
