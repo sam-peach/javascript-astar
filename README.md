@@ -6,7 +6,7 @@ I've added an option allowing A* to calculate its cost function based on the val
 
 To use this feature pass in 'grayscaleWeights: true' when the new instance of the graph is created:
 ```
- graph = new Graph(map, {diagonal: true, greyscaleWeights: true})
+ const graph = new Graph(map, {diagonal: true, greyscaleWeights: true})
 ```
 
 ## An implementation of the A* Search Algorithm in JavaScript
