@@ -1,5 +1,14 @@
 # javascript-astar
 
+## My moifications
+
+I've added an option allowing A* to calculate its cost function based on the value between tiles instead of simply adding the number to the cost function. This prims the A* for terrain traversal as it's able to move through a space accounting for dramatic changes in the altitude.
+
+To use this feature pass in 'grayscaleWeights: true' when the new instance of the graph is created:
+```
+ graph = new Graph(map, {diagonal: true, greyscaleWeights: true})
+```
+
 ## An implementation of the A* Search Algorithm in JavaScript
 
 See a demo at http://www.briangrinstead.com/files/astar/
